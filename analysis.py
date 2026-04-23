@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.set_theme(style="whitegrid")
-df = pd.read_csv("SuperMarket_Analysis.csv")
+df = pd.read_csv("AI/SuperMarket_Analysis.csv")
 print(df.head())
 print(df.info())
 print(df.shape)
